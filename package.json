@@ -1,0 +1,19 @@
+{
+  "name": "gangbank",
+  "version": "0.0.1",
+  "description": "A training application for teaching software testing using an example of a banking application with minimal functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kreotiff-dev/gangbank.git"
+  },
+  "author": "Eugene Sychev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kreotiff-dev/gangbank/issues"
+  },
+  "homepage": "https://github.com/kreotiff-dev/gangbank#readme"
+}
