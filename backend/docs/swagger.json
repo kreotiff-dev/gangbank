@@ -1,0 +1,89 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "GangBank API",
+    "version": "1.0.0",
+    "description": "API для системы GangBank"
+  },
+  "paths": {
+    "/auth/register": {
+      "post": {
+        "summary": "Регистрация пользователя",
+        "description": "Регистрирует нового пользователя в системе",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "phone": {
+                    "type": "string",
+                    "pattern": "^\\+7\\d{10}$",
+                    "description": "Номер телефона пользователя в международном формате"
+                  },
+                  "email": {
+                    "type": "string",
+                    "format": "email",
+                    "description": "Адрес электронной почты пользователя"
+                  },
+                  "password": {
+                    "type": "string",
+                    "pattern": "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$",
+                    "description": "Пароль пользователя (минимум 8 символов, одна строчная буква, одна заглавная буква, одна цифра)"
+                  }
+                },
+                "required": ["phone", "email", "password"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Успешная регистрация"
+          },
+          "400": {
+            "description": "Неверный запрос"
+          }
+        }
+      }
+    },
+    "/auth/confirm": {
+      "post": {
+        "summary": "Подтверждение регистрации",
+        "description": "Подтверждает регистрацию пользователя по коду из смс",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "phone": {
+                    "type": "string",
+                    "pattern": "^\\+?[1-9]\\d{1,14}$",
+                    "description": "Номер телефона, на который был отправлен смс-код"
+                  },
+                  "code": {
+                    "type": "string",
+                    "pattern": "^\\d{5}$",
+                    "description": "Смс-код для подтверждения регистрации"
+                  }
+                },
+                "required": ["phone", "code"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Регистрация подтверждена"
+          },
+          "400": {
+            "description": "Неверный запрос"
+          }
+        }
+      }
+    }
+  }
+}
