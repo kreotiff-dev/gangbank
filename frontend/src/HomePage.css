@@ -1,0 +1,66 @@
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 70%;
+    background-position: center;
+    background-color: #000;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute; /* Позиционируем элемент абсолютно */
+    top: 20px; /* Располагаем элемент на 20px от верхней границы */
+    left: 50%; /* Располагаем элемент по центру горизонтально */
+    transform: translateX(-50%); /* Сдвигаем элемент влево на 50% его ширины, чтобы центрировать его */
+    height: 150px; /* Устанавливаем высоту логотипа */
+}
+
+.content {
+    text-align: center;
+    z-index: 1;
+}
+
+h1 {
+    color: #fff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registration-btn {
+    background-color: #007bff;
+}
+
+.login-btn {
+    background-color: #28a745;
+}
+.registration-btn:hover {
+    background-color: #0056b3; /* Изменяем цвет фона при наведении мыши */
+}
+.login-btn:hover {
+    background-color: #189234; /* Изменяем цвет фона при наведении мыши */
+}
+
+/* .registration-btn:hover, */
+/*.login-btn:hover {
+    background-color: #b30600; /* Новый цвет фона при наведении */
