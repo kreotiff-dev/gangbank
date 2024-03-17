@@ -1,0 +1,36 @@
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* Ширина формы */
+    margin: 0 auto; /* Центрирование формы */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Пространство между полями */
+    text-align: left; /* Выравнивание текста слева */
+    width: 100%;
+  }
+  
+  label {
+    display: block; /* Размещаем label на новой строке */
+    margin-bottom: 5px; /* Пространство под label */
+  }
+  
+  input {
+    width: 100%; /* Ширина поля ввода равна ширине формы */
+    padding: 8px; /* Внутренние отступы */
+    border: 1px solid #ccc; /* Граница поля */
+    border-radius: 4px; /* Закругленные углы */
+    box-sizing: border-box; /* Учитываем границу и внутренние отступы в общей ширине поля */
+  }
+  
+  .modal-btn-reg {
+    background-color: #28a745;
+    width: 300px;
+}
+  
+    .modal-btn-reg:hover {
+    background-color: #189234; /* Изменяем цвет фона при наведении мыши */
+}
+  

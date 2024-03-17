@@ -60,7 +60,60 @@ h1 {
 .login-btn:hover {
     background-color: #189234; /* Изменяем цвет фона при наведении мыши */
 }
+.ReactModalPortal {
+    position: fixed; /* Используйте fixed, чтобы обертка оставалась на месте при прокрутке страницы */
+    top: 50%; /* Расположение по вертикали в середине */
+    left: 50%; /* Расположение по горизонтали в середине */
+    transform: translate(-50%, -50%); /* Центрирование относительно центра экрана */
+    z-index: 1000; /* Убедитесь, что z-index больше, чем у других элементов */
+  }
+.modal-content {
+    background-color: #fff; /* Белый фон */
+    color: #000; /* Черный шрифт */
+    width: 400px; /* Ширина модального окна */
+    margin: 0 auto; /* Расположить по центру */
+    padding: 20px; /* Отступ внутри модального окна */
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+    text-align: center; /* Выравниваем содержимое по центру */
+}
+      
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+}
+      
+.modal-title {
+    color: #000000; /* Белый шрифт */
+}
+      
+.modal-button {
+    background-color: #007bff; /* Цвет кнопок */
+    color: #fff; /* Цвет текста кнопок */
+    border: none; /* Убрать границы кнопок */
+    border-radius: 4px; /* Закругленные углы кнопок */
+    padding: 10px 20px; /* Отступы внутри кнопок */
+    cursor: pointer; /* Курсор при наведении на кнопки */
+    display: block;
+    width: 100%;
+}
+      
+.modal-button:hover {
+    background-color: #0056b3; /* Цвет кнопок при наведении */
+}
+.modal-form-field {
+    margin-bottom: 20px; /* Отступ между полями */
+}
+.modal-btn-close {
+    background-color: #007bff;
+    width: 300px;
+}
 
-/* .registration-btn:hover, */
-/*.login-btn:hover {
-    background-color: #b30600; /* Новый цвет фона при наведении */
+.modal-btn-reg {
+    background-color: #28a745;
+}
+.modal-btn-close:hover {
+    background-color: #0056b3; /* Изменяем цвет фона при наведении мыши */
+}
+.modal-btn-reg:hover {
+    background-color: #189234; /* Изменяем цвет фона при наведении мыши */
+}
