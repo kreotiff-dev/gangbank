@@ -13,8 +13,6 @@ const images = importAll(require.context('./', false, /\.(png|jpe?g|svg)$/));
 
 function HomePage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const logoImage = images['logo.png'] || '';
-  const backgroundImage = images['background.jpg'] || '';
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -23,6 +21,15 @@ function HomePage() {
   const closeModal = () => {
     setIsModalOpen(false);
   };
+
+  const handleRegistrationSuccess = () => {
+    setIsModalOpen(false);
+  };
+
+
+  const logoImage = images['logo.png'] || '';
+  const backgroundImage = images['background.jpg'] || '';
+
 
   return (
     <div className="home-page" style={{ backgroundImage: `url(${backgroundImage})` }}>
@@ -43,7 +50,7 @@ function HomePage() {
             contentLabel="Регистрация"
         >
             <h2 className="modal-title">Заполните поля регистрации</h2>
-            <RegistrationForm />
+            <RegistrationForm onSuccess={handleRegistrationSuccess} closeModal={closeModal} />
             <div className="button-container">
                 <button className="btn modal-btn-close" onClick={closeModal}>Закрыть</button>
             </div>
