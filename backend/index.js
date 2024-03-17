@@ -11,6 +11,14 @@ const confirmRoutes = require('./routes/confirmRoutes');
 // Middleware для обработки JSON тела запроса
 app.use(express.json());
 
+// Middleware для обработки CORS
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001'); // Замените на нужный origin
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  next();
+});
+
 // Регистрация маршрутов
 app.use('/auth', authRoutes);
 app.use('/auth', confirmRoutes);

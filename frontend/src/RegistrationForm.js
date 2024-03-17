@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import './RegistrationForm.css'; // Импортируем файл стилей для формы
+import { Input } from 'react-input-mask'; // Импортируем компонент для маски ввода
+import PhoneInput from 'react-phone-number-input'; // Импортируем компонент для выбора номера телефона
+import 'react-phone-number-input/style.css'; // Стили для PhoneInput компонента
 
 function RegistrationForm({ onSubmit }) {
   const [formData, setFormData] = useState({
     phone: '',
     email: '',
     password: '',
-    confirmPassword: '',
+    // confirmPassword: '',
   });
 
   const handleChange = (e) => {
@@ -17,21 +21,44 @@ function RegistrationForm({ onSubmit }) {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handlePhoneChange = (value) => {
+    setFormData((prevData) => ({
+      ...prevData,
+      phone: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (formData.password !== formData.confirmPassword) {
-      alert('Пароли не совпадают');
-      return;
+    try {
+      const response = await axios.post('http://localhost:3000/auth/register', formData); // Отправляем данные на сервер
+      console.log(response.data); // Выводим ответ от сервера в консоль
+      // Очищаем форму после успешной отправки данных
+      setFormData({
+        phone: '',
+        email: '',
+        password: '',
+        confirmPassword: '',
+      });
+    } catch (error) {
+      console.error('Ошибка при отправке данных:', error);
     }
-    // Передаем данные формы во внешний обработчик
-    onSubmit(formData);
   };
 
   return (
     <form className="registration-form" onSubmit={handleSubmit}>
       <div className="form-group">
         <label htmlFor="phone">Телефон:</label>
-        <input className='modal-form-field' type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} />
+        <PhoneInput
+          international
+          defaultCountry="RU"
+          countries={['RU', 'BY']}
+          className='modal-form-field'
+          id="phone"
+          name="phone"
+          value={formData.phone}
+          onChange={handlePhoneChange}
+        />
       </div>
       <div className="form-group">
         <label htmlFor="email">Email:</label>
