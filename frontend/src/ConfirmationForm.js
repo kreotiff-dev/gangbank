@@ -1,37 +1,39 @@
+// ConfirmationForm.js
 import React, { useState } from 'react';
 import axios from 'axios';
-import './RegistrationForm.css';
 
-function ConfirmationForm({ phone, onSubmit }) {
-    const [confirmationCode, setConfirmationCode] = useState('');
-  
-    const handleChange = (e) => {
-      setConfirmationCode(e.target.value);
-    };
-  
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      onSubmit(confirmationCode);
-    };
-  
-    return (
-      <form className="registration-form" onSubmit={handleSubmit}>
-        <h2>Подтверждение номера телефона</h2>
-        <p>На номер {phone} отправлено SMS с кодом подтверждения. Введите полученный код ниже:</p>
-        <div className="form-group">
-          <label htmlFor="confirmationCode">Код подтверждения:</label>
-          <input
-            className='modal-form-field'
-            type="text"
-            id="confirmationCode"
-            name="confirmationCode"
-            value={confirmationCode}
-            onChange={handleChange}
-          />
-        </div>
-        <button className="btn modal-btn-reg" type="submit">Подтвердить</button>
+function ConfirmationForm({ phone, closeModal }) {
+  const [confirmationCode, setConfirmationCode] = useState('');
+
+  const handleChange = (e) => {
+    setConfirmationCode(e.target.value);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const data = {
+        phone: phone,
+        confirmationCode: confirmationCode
+      };
+      const response = await axios.post('http://localhost:3000/auth/confirm', data);
+      console.log('Response from server:', response);
+      closeModal(); // Close the modal after successful confirmation
+    } catch (error) {
+      console.error('Error while sending data:', error);
+    }
+  };
+
+  return (
+    <div>
+      <form className="confirmation-form" onSubmit={handleSubmit}>
+        <h2>Phone Confirmation</h2>
+        <p>An SMS with confirmation code has been sent to {phone}. Enter the code below:</p>
+        <input type="text" value={confirmationCode} onChange={handleChange} placeholder="Confirmation Code" />
+        <button className="btn modal-btn-reg" type="submit">Confirm</button>
       </form>
-    );
-  }
-  
-  export default ConfirmationForm;
+    </div>
+  );
+}
+
+export default ConfirmationForm;

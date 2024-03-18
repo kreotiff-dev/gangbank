@@ -2,8 +2,7 @@ const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcrypt');
 const pool = require('../db_users');
-const loggers = require('../utils/logger');
-
+const { errorLogger, infoLogger, warnLogger, debugLogger } = require('../utils/logger');
 
 //throw new Error('Тестовая ошибка');
 
@@ -42,17 +41,16 @@ router.post('/register', async (req, res) => {
         const newUser = await pool.query('INSERT INTO users (phone, email, password) VALUES ($1, $2, $3) RETURNING *', [phone, email, hashedPassword]);
 
         // Логирование успешной регистрации
-        loggers.info.info('Пользователь успешно зарегистрирован');
+        infoLogger.info('Пользователь успешно зарегистрирован');
 
         // Отправляем ответ с подтверждением успешной регистрации
         res.status(201).json({ message: 'Пользователь успешно зарегистрирован', user: newUser.rows[0] });
     } catch (error) {
         console.error('Ошибка при регистрации пользователя:', error);
         // Логирование ошибки при регистрации
-        loggers.error.error('Ошибка при регистрации пользователя:', error);
+        errorLogger.error('Ошибка при регистрации пользователя:', error);
         res.status(500).json({ message: 'Ошибка при регистрации пользователя' });
     }
 });
 
 module.exports = router;
-
