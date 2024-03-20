@@ -1,14 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import HomePage from './HomePage';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+// Получаем ссылку на корневой элемент в DOM
+const rootElement = document.getElementById('root');
+
+// Рендерим компонент HomePage в корневом элементе
+ReactDOM.render(
   <React.StrictMode>
     <HomePage />
-  </React.StrictMode>
+  </React.StrictMode>,
+  rootElement
 );
 
 // If you want to start measuring performance in your app, pass a function
