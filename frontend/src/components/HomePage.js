@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import './HomePage.css';
+import '../styles/HomePage.css';
 import RegistrationForm from './RegistrationForm';
 import ConfirmationForm from './ConfirmationForm';
 
@@ -30,9 +30,9 @@ function HomePage() {
   };
 
 
-  const logoImage = images['logo.png'] || '';
-  const backgroundImage = images['background.jpg'] || '';
-
+  const logoImage = process.env.PUBLIC_URL + '/logo.png' || '';
+  const backgroundImage = process.env.PUBLIC_URL + '/background.jpg' || '';
+  
   return (
     <div className="home-page" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <img className="logo" src={logoImage} alt="Логотип" />

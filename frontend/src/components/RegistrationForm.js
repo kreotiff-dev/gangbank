@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import InputMask from 'react-input-mask';
 import ConfirmationForm from './ConfirmationForm';
-import './RegistrationForm.css'
+import '../styles/RegistrationForm.css'
 
 function RegistrationForm({ closeModal }) {
   const [formData, setFormData] = useState({
@@ -16,6 +16,12 @@ function RegistrationForm({ closeModal }) {
 
   const [emailError, setEmailError] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const [phoneError, setPhoneError] = useState('');
+  const [passwordError, setPasswordError] = useState('');
+  const [confirmPasswordError, setConfirmPasswordError] = useState('');
+  const [isPhoneFocused, setIsPhoneFocused] = useState(false);
+  const [isEmailFocused, setIsEmailFocused] = useState(false);
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -25,6 +31,9 @@ function RegistrationForm({ closeModal }) {
     }));
 
     // Очистка сообщений об ошибки после заполнения поля
+    if (name === 'phone') {
+      setPhoneError('');
+    }
     if (name === 'email') {
         setEmailError('');
     }
@@ -61,10 +70,9 @@ function RegistrationForm({ closeModal }) {
     }
   };
 
-  const validateEmail = (email) => {
-    // Регулярное выражение для проверки корректности адреса электронной почты
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
+  
+  const handlePhoneFocus = () => {
+      setIsPhoneFocused(true);
   };
 
   const handlePhoneChange = (e) => {
@@ -75,6 +83,13 @@ function RegistrationForm({ closeModal }) {
       ...prevData,
       phone: cleanedValue,
     }));
+    // Проверка корректности ввода номера телефона на лету
+    const phoneRegex = /^\+\d{11}$/;
+    if (!phoneRegex.test(cleanedValue)) {
+        setPhoneError('Некорректный номер телефона');
+    } else {
+        setPhoneError(''); // Сброс сообщения об ошибке, если номер телефона введен правильно
+    }
   };
 
   const handleEmailChange = (e) => {
@@ -83,12 +98,27 @@ function RegistrationForm({ closeModal }) {
       ...prevData,
       email: value,
     }));
-    if (!validateEmail(value)) {
+    // Проверка корректности ввода почтового адреса
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(value)) {
       setEmailError('Некорректный адрес электронной почты');
     } else {
       setEmailError('');
     }
   };
+
+  const handleEmailBlur = () => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!formData.email.trim() || !emailRegex.test(formData.email)) {
+        setEmailError('Некорректный адрес электронной почты');
+    } else {
+        setEmailError('');
+    }
+    setIsEmailFocused(false); // Сбрасываем флаг фокуса после проверки
+};
+
+
+
 
   return (
     <div>
@@ -104,8 +134,11 @@ function RegistrationForm({ closeModal }) {
                     name="phone" 
                     value={formData.phone} 
                     onChange={handlePhoneChange} 
-                    placeholder="+7 (999) 111-22-33"                   
+                    onFocus={handlePhoneFocus}
+                    placeholder="+7 (999) 111-22-33"     
+                    className={`${phoneError && !isPhoneFocused ? 'error-input' : ''}`}              
                 />
+                {phoneError && !isPhoneFocused && <div className="error-message">{phoneError}</div>}
             </div>
             <div className="form-group">
                 <label htmlFor="email">Email:</label>
@@ -114,10 +147,13 @@ function RegistrationForm({ closeModal }) {
                     name="email" 
                     value={formData.email} 
                     onChange={handleEmailChange} 
+                    onBlur={handleEmailBlur} // Используем onBlur вместо onChange
+                    onFocus={() => setIsEmailFocused(true)} // Устанавливаем фокус при фокусировке на поле
                     placeholder="example@example.com" 
-                    className={`${emailError ? 'error-input' : ''}`}
+                    className={`${emailError && !isEmailFocused ? 'error-input' : ''}`}
                 />
-                {emailError && <div className="error-message">{emailError}</div>}
+                {emailError && !isEmailFocused && <div className="error-message">{emailError}</div>}
+
             </div>
             <div className="form-group">
                 <label htmlFor="password">Пароль:</label>

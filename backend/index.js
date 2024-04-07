@@ -4,9 +4,30 @@ const swaggerUi = require('swagger-ui-express'); // импорт модуля sw
 const swaggerDocument = require('./docs/swagger.json');
 const logger = require('./utils/logger');
 const port = process.env.PORT || 3000; // Порт, на котором будет работать сервер
-
 const authRoutes = require('./routes/authRoutes');
 const confirmRoutes = require('./routes/confirmRoutes');
+// Подключаем миграцию 
+const { Sequelize } = require('sequelize');
+const dbConfig = require('./db_users'); // Поменяй путь на корректный путь к db_users.js
+
+const sequelize = new Sequelize({
+  dialect: 'postgres',
+  username: dbConfig.user,
+  password: dbConfig.password,
+  database: dbConfig.database,
+  host: dbConfig.host,
+  port: dbConfig.port
+});
+
+// Пример подключения к базе данных с использованием sequelize
+sequelize.authenticate()
+  .then(() => {
+    console.log('Connection to the database has been established successfully.');
+  })
+  .catch(err => {
+    console.error('Unable to connect to the database:', err);
+  });
+//подключение миграции
 
 // Middleware для обработки JSON тела запроса
 app.use(express.json());

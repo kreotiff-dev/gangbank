@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import HomePage from './HomePage';
+import './styles/index.css';
+import HomePage from './components/HomePage';
 import reportWebVitals from './reportWebVitals';
 
 // Получаем ссылку на корневой элемент в DOM

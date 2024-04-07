@@ -73,3 +73,14 @@
 2024-03-20T13:01:37.970Z error: Пользователь уже зарегистрирован. Войдите с помощью номера телефона и пароля, undefined
 2024-03-20T13:15:07.612Z error: Пользователь уже зарегистрирован. Войдите с помощью номера телефона и пароля, undefined
 2024-03-20T13:15:48.336Z error: Пользователь уже зарегистрирован. Войдите с помощью номера телефона и пароля, undefined
+2024-03-27T16:53:06.011Z error: Ошибка при регистрации пользователя: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string, undefined
+2024-03-27T17:31:01.138Z error: Ошибка при регистрации пользователя: password authentication failed for user "postgres", undefined
+2024-04-01T16:53:20.637Z error: Ошибка при регистрации пользователя: connect ECONNREFUSED ::1:5432, undefined
+2024-04-01T16:53:36.082Z error: Ошибка при регистрации пользователя: connect ECONNREFUSED ::1:5432, undefined
+2024-04-01T17:09:41.545Z error: Ошибка при подтверждении регистрации: connect ECONNREFUSED ::1:5432, undefined
+2024-04-01T17:40:01.433Z error: Ошибка при регистрации пользователя: connect ECONNREFUSED ::1:5432, undefined
+2024-04-07T20:45:54.718Z error: Ошибка при регистрации пользователя: connect ECONNREFUSED ::1:5432, undefined
+2024-04-07T20:48:10.220Z error: Ошибка при регистрации пользователя: relation "users" does not exist, undefined
+2024-04-07T20:49:13.849Z error: Ошибка при регистрации пользователя: relation "users" does not exist, undefined
+2024-04-07T21:11:16.024Z error: Ошибка при регистрации пользователя: relation "users" does not exist, undefined
+2024-04-07T22:03:10.287Z error: Ошибка при подтверждении регистрации: column "confirmed" of relation "users" does not exist, undefined
