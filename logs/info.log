@@ -60,3 +60,9 @@
 2024-03-20T13:16:25.625Z info: Пользователь успешно зарегистрирован, undefined
 2024-03-20T13:20:11.635Z info: Пользователь успешно зарегистрирован, undefined
 2024-04-07T22:02:33.138Z info: Пользователь успешно зарегистрирован, undefined
+2024-04-18T20:24:24.879Z info: GET /user, undefined
+2024-04-18T20:24:35.546Z info: GET /api/user, undefined
+2024-04-18T20:24:50.146Z info: GET /user, undefined
+2024-04-18T20:24:59.089Z info: GET /api, undefined
+2024-04-18T20:28:52.900Z info: GET /api/user:1, undefined
+2024-04-18T21:19:51.673Z info: GET /api/user:1, undefined

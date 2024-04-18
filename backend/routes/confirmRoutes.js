@@ -6,11 +6,10 @@ const { errorLogger } = require('../utils/logger');
 router.post('/confirm', async (req, res) => {
     try {
         const { phone, confirmationCode } = req.body;
-
         errorLogger.info(`Запрос на подтверждение регистрации для номера телефона: ${phone}`);
 
         const user = await pool.query('SELECT * FROM users WHERE phone = $1', [phone]);
-
+        
         if (user.rows.length === 0) {
             errorLogger.error('Пользователь не найден. Начните процесс регистрации сначала');
             return res.status(404).json({ message: 'Пользователь не найден. Начните процесс регистрации сначала' });

@@ -6,6 +6,8 @@ const logger = require('./utils/logger');
 const port = process.env.PORT || 3000; // Порт, на котором будет работать сервер
 const authRoutes = require('./routes/authRoutes');
 const confirmRoutes = require('./routes/confirmRoutes');
+const userRoutes = require('./routes/userRoutes');
+
 // Подключаем миграцию 
 const { Sequelize } = require('sequelize');
 const dbConfig = require('./db_users'); // Поменяй путь на корректный путь к db_users.js
@@ -28,6 +30,9 @@ sequelize.authenticate()
     console.error('Unable to connect to the database:', err);
   });
 //подключение миграции
+
+//роут users
+app.use('/api', userRoutes);
 
 // Middleware для обработки JSON тела запроса
 app.use(express.json());
