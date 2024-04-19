@@ -2,7 +2,7 @@
   "openapi": "3.0.3",
   "info": {
     "title": "GangBank API",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "API для системы GangBank"
   },
   "paths": {
@@ -81,6 +81,73 @@
           },
           "400": {
             "description": "Неверный запрос"
+          }
+        }
+      }
+    },
+    "/user/{id}": {
+      "get": {
+        "summary": "Получение информации о пользователе",
+        "description": "Возвращает информацию о пользователе по его уникальному идентификатору",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Уникальный идентификатор пользователя",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Информация о пользователе",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer",
+                      "description": "Уникальный идентификатор пользователя"
+                    },
+                    "phone": {
+                      "type": "string",
+                      "description": "Номер телефона пользователя"
+                    },
+                    "email": {
+                      "type": "string",
+                      "description": "Электронная почта пользователя"
+                    },
+                    "firstName": {
+                      "type": "string",
+                      "description": "Имя пользователя"
+                    },
+                    "lastName": {
+                      "type": "string",
+                      "description": "Фамилия пользователя"
+                    },
+                    "createdAt": {
+                      "type": "string",
+                      "format": "date-time",
+                      "description": "Дата и время создания учетной записи пользователя"
+                    },
+                    "updatedAt": {
+                      "type": "string",
+                      "format": "date-time",
+                      "description": "Дата и время последнего обновления учетной записи пользователя"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Пользователь не найден"
+          },
+          "500": {
+            "description": "Ошибка сервера"
           }
         }
       }
