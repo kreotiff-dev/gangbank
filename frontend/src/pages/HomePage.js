@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import '../styles/HomePage.css';
-import RegistrationForm from './RegistrationForm';
-import ConfirmationForm from './ConfirmationForm';
+import RegistrationForm from '../components/RegistrationForm';
+import ConfirmationForm from '../components/ConfirmationForm';
 
 function importAll(r) {
   let images = {};

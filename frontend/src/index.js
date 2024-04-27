@@ -1,16 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './styles/index.css';
-import HomePage from './components/HomePage';
+import HomePage from './pages/HomePage';
+import PersonalCabinet from './pages/PersonalCabinet';
 import reportWebVitals from './reportWebVitals';
 
 // Получаем ссылку на корневой элемент в DOM
 const rootElement = document.getElementById('root');
 
-// Рендерим компонент HomePage в корневом элементе
+// Рендерим компоненты в корневом элементе с использованием маршрутизации
 ReactDOM.render(
   <React.StrictMode>
-    <HomePage />
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />
+        <Route path="/personal-cabinet" element={<PersonalCabinet />} />
+      </Routes>
+    </Router>
   </React.StrictMode>,
   rootElement
 );

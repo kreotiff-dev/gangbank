@@ -7,18 +7,19 @@ const port = process.env.PORT || 3000; // Порт, на котором буде
 const authRoutes = require('./routes/authRoutes');
 const confirmRoutes = require('./routes/confirmRoutes');
 const userRoutes = require('./routes/userRoutes');
+const { user, password, database, host, portdb } = require('./db_users')
 
 // Подключаем миграцию 
 const { Sequelize } = require('sequelize');
-const dbConfig = require('./db_users'); // Поменяй путь на корректный путь к db_users.js
+
 
 const sequelize = new Sequelize({
   dialect: 'postgres',
-  username: dbConfig.user,
-  password: dbConfig.password,
-  database: dbConfig.database,
-  host: dbConfig.host,
-  port: dbConfig.port
+  username: user,
+  password: password,
+  database: database,
+  host: host,
+  port: portdb //port - используется на 62 строке, надо подумать как передавать конфиг
 });
 
 // Пример подключения к базе данных с использованием sequelize
