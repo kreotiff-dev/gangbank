@@ -8,11 +8,13 @@ const pool = new Pool({
   portdb: 5432, // порт по умолчанию для PostgreSQL
 });
 
-module.exports = pool;
+const { user, host, database, password, portdb } = pool.options;
+
 module.exports = {
-  user: pool.options.user,
-  host: pool.options.host,
-  database: pool.options.database,
-  password: pool.options.password,
-  portdb: pool.options.portdb
-};
+  pool,
+  user,
+  host,
+  database,
+  password,
+  portdb
+}

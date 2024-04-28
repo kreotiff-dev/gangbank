@@ -41,7 +41,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     updatedAt: {
       type: DataTypes.DATE,
-      field: 'updatedat' // Указываем фактическое имя колонки в базе данных
+      field: 'updatedat' 
     },
   }, {
     // Дополнительные настройки модели

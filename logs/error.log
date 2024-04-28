@@ -84,3 +84,659 @@
 2024-04-07T20:49:13.849Z error: Ошибка при регистрации пользователя: relation "users" does not exist, undefined
 2024-04-07T21:11:16.024Z error: Ошибка при регистрации пользователя: relation "users" does not exist, undefined
 2024-04-07T22:03:10.287Z error: Ошибка при подтверждении регистрации: column "confirmed" of relation "users" does not exist, undefined
+2024-04-28T12:05:37.920Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T12:07:08.272Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T12:10:22.610Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T12:11:24.967Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T12:12:42.718Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T12:15:46.998Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T12:16:56.098Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T12:17:23.374Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T12:22:03.649Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T12:28:42.749Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T12:29:31.339Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T18:30:32.566Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T18:30:52.915Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T18:30:58.673Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T18:31:23.639Z error: Ошибка при подтверждении регистрации: pool.query is not a function, undefined
+2024-04-28T18:32:09.282Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T19:02:31.067Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T19:03:33.107Z error: Ошибка при регистрации пользователя: pool.query is not a function, undefined
+2024-04-28T19:05:36.949Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:17:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:08:13.139Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:17:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:10:14.736Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:17:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:14:56.237Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:17:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:15:14.521Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:17:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:16:10.935Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:17:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:19:23.750Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:17:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:22:25.689Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:17:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:28:46.352Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:17:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:28:55.309Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:17:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:32:28.143Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:34:38.152Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:35:02.480Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:35:38.943Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:35:43.110Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:36:44.693Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:38:12.011Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:39:00.587Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:41:00.111Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:41:01.635Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:41:02.945Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:42:04.007Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:45:39.631Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:46:09.606Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:53:33.773Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:54:05.116Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T19:54:17.434Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T20:29:29.366Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T20:32:24.482Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T20:48:56.253Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T20:49:03.327Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T20:49:21.008Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:16:08.557Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:16:14.108Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:18:46.437Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:18:52.290Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:20:44.610Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:30:43.269Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:30:57.822Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:31:01.264Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:31:02.008Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:31:02.519Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:31:45.265Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:31:52.338Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:31:59.062Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:35:16.427Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:35:22.057Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:37:19.308Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:37:39.468Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:37:49.356Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:38:12.428Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:39:18.109Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:40:42.309Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T21:42:54.037Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T22:04:48.886Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T22:16:17.153Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T22:24:09.752Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined
+2024-04-28T22:24:34.711Z error: TypeError: logger.info is not a function
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:34:10
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\strat\JSProjects\gangbank\backend\index.js:27:3
+    at Layer.handle [as handle_request] (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\strat\JSProjects\gangbank\node_modules\express\lib\router\index.js:286:9, undefined

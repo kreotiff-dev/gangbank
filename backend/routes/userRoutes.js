@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-// Измените эту строку
 const { User } = require('../models/index'); // Путь может отличаться в зависимости от структуры вашего проекта
 
 router.get('/user/:id', async (req, res) => {

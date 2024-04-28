@@ -66,3 +66,22 @@
 2024-04-18T20:24:59.089Z info: GET /api, undefined
 2024-04-18T20:28:52.900Z info: GET /api/user:1, undefined
 2024-04-18T21:19:51.673Z info: GET /api/user:1, undefined
+2024-04-27T19:59:37.291Z info: GET /user/1, undefined
+2024-04-27T20:03:36.287Z info: GET /user/1, undefined
+2024-04-27T20:03:55.010Z info: GET /user/1, undefined
+2024-04-27T20:18:59.895Z info: GET /user/1, undefined
+2024-04-27T20:20:35.634Z info: GET /user/1, undefined
+2024-04-27T20:31:30.734Z info: GET /user/1, undefined
+2024-04-27T20:31:34.757Z info: GET /user/1, undefined
+2024-04-28T00:02:24.303Z info: GET /user/1, undefined
+2024-04-28T00:02:24.309Z info: GET /user/1, undefined
+2024-04-28T00:02:30.784Z info: GET /user/1, undefined
+2024-04-28T00:02:50.715Z info: GET /user/1, undefined
+2024-04-28T00:12:39.289Z info: GET /user/1, undefined
+2024-04-28T00:12:39.307Z info: GET /user/1, undefined
+2024-04-28T00:12:52.503Z info: GET /user/1, undefined
+2024-04-28T00:14:38.043Z info: GET /api/user/1, undefined
+2024-04-28T00:15:23.766Z info: GET /favicon.ico, undefined
+2024-04-28T22:25:58.710Z info: Пользователь успешно зарегистрирован, undefined
+2024-04-28T22:39:48.975Z info: Пользователь успешно зарегистрирован, undefined
+2024-04-28T22:41:11.931Z info: Пользователь успешно зарегистрирован, undefined

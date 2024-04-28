@@ -8,10 +8,32 @@ const authRoutes = require('./routes/authRoutes');
 const confirmRoutes = require('./routes/confirmRoutes');
 const userRoutes = require('./routes/userRoutes');
 const { user, password, database, host, portdb } = require('./db_users')
+const cors = require('cors'); // Импорт пакета cors
+
+
+// Используйте cors middleware
+app.use(cors());
+
+// Установите разрешенный домен (http://localhost:3001) в качестве параметра, если нужно ограничить доступ
+// app.use(cors({
+//   origin: 'http://localhost:3001'
+// }));
+
+// Middleware для обработки CORS
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*'); // Разрешить доступ только с http://localhost:3001
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  next();
+});
 
 // Подключаем миграцию 
 const { Sequelize } = require('sequelize');
 
+// app.use((req, res, next) => {
+//   logger.info(`[${new Date().toLocaleString()}] - ${req.method} ${req.url}`);
+//   next();
+// });
 
 const sequelize = new Sequelize({
   dialect: 'postgres',
@@ -32,23 +54,14 @@ sequelize.authenticate()
   });
 //подключение миграции
 
-//роут users
-app.use('/api', userRoutes);
-
 // Middleware для обработки JSON тела запроса
 app.use(express.json());
 
-// Middleware для обработки CORS
-app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001'); // Замените на нужный origin
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-  next();
-});
 
 // Регистрация маршрутов
 app.use('/auth', authRoutes);
 app.use('/auth', confirmRoutes);
+app.use('/', userRoutes);
 
 // Обработчик маршрута для корневого URL
 app.get('/', (req, res) => {
@@ -66,6 +79,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 // Подключаем логгеры к приложению
 app.use((req, res, next) => {
   // Логгер для обычных действий
+  console.log('Request received:', req.method, req.url); // Добавленный console.log()
   logger.infoLogger.info(`${req.method} ${req.url}`);
 
   // Продолжаем обработку запроса
@@ -75,6 +89,7 @@ app.use((req, res, next) => {
 // Обработчик ошибок
 app.use((err, req, res, next) => {
   // Логгер для ошибок
+  console.log('Error occurred:', err); // Добавленный console.log()
   logger.errorLogger.error(err.stack);
 
   // Отправляем ответ с ошибкой

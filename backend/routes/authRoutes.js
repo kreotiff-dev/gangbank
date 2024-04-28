@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcrypt');
-const pool = require('../db_users');
+const pool = require('../db_users').pool;
 const { errorLogger, infoLogger, warnLogger, debugLogger } = require('../utils/logger');
 
 //throw new Error('Тестовая ошибка');
