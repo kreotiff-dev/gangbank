@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/PersonalCabinet.css'
 
 const Header = () => {
   return (
