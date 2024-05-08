@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const pool = require('../db_users');
+const pool = require('../db_users').pool;
 const { errorLogger } = require('../utils/logger');
 
 router.post('/confirm', async (req, res) => {
@@ -26,8 +26,10 @@ router.post('/confirm', async (req, res) => {
             await pool.query('UPDATE users SET confirmed = true WHERE phone = $1', [phone]);
 
             errorLogger.info(`Регистрация успешно подтверждена для номера телефона: ${phone}`);
+            // Перенаправление на страницу персонального кабинета
+            res.redirect(`http://localhost:3001/personal-cabinet`);
 
-            return res.status(200).json({ message: 'Регистрация успешно подтверждена' });
+            // return res.status(200).json({ message: 'Регистрация успешно подтверждена' });
         } else {
             errorLogger.error('Неверный код подтверждения');
             return res.status(400).json({ message: 'Неверный код подтверждения' });

@@ -11,21 +11,23 @@ const { user, password, database, host, portdb } = require('./db_users')
 const cors = require('cors'); // Импорт пакета cors
 
 
+// Middleware для обработки CORS
+// app.use((req, res, next) => {
+//   res.setHeader('Access-Control-Allow-Origin', '*'); // Разрешить доступ только с http://localhost:3001
+//   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+//   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+//   next();
+// });
+
 // Используйте cors middleware
-app.use(cors());
+// app.use(cors());
 
 // Установите разрешенный домен (http://localhost:3001) в качестве параметра, если нужно ограничить доступ
-// app.use(cors({
-//   origin: 'http://localhost:3001'
-// }));
+app.use(cors({
+  origin: 'http://localhost:3001',
+  credentials: true
+}));
 
-// Middleware для обработки CORS
-app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*'); // Разрешить доступ только с http://localhost:3001
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-  next();
-});
 
 // Подключаем миграцию 
 const { Sequelize } = require('sequelize');
@@ -63,10 +65,17 @@ app.use('/auth', authRoutes);
 app.use('/auth', confirmRoutes);
 app.use('/', userRoutes);
 
+
 // Обработчик маршрута для корневого URL
 app.get('/', (req, res) => {
   res.send('Привет, мир!');
 });
+
+// Обработчик маршрута для страницы /personal-cabinet
+// app.get('/personal-cabinet', (req, res) => {
+//   res.send('Welcome to your personal cabinet!');
+// });
+
 
 // Запуск сервера
 app.listen(port, () => {
