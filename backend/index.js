@@ -72,9 +72,9 @@ app.get('/', (req, res) => {
 });
 
 // Обработчик маршрута для страницы /personal-cabinet
-// app.get('/personal-cabinet', (req, res) => {
-//   res.send('Welcome to your personal cabinet!');
-// });
+app.get('/personal-cabinet', (req, res) => {
+  res.send('Welcome to your personal cabinet!');
+});
 
 
 // Запуск сервера
